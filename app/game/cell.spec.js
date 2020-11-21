@@ -23,7 +23,7 @@ describe('Cell', () => {
     test('should return {state === 1}', () => {
       const cell = new Cell(rules)
       expect(cell.isLiving).toBeFalsy()
-      cell.state = 1
+      cell.state = 0
       expect(cell.isLiving).toBeTruthy()
     })
   })
